@@ -41,4 +41,4 @@ npm run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-Images - [Unsplash](https://nuxt.com/docs/getting-started/deployment) 
+Images - [Unsplash](https://unsplash.com/) 
