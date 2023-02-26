@@ -6,7 +6,7 @@
         <p class="mb-20 text-3xl">
           Creating quality urban lifestyles,building stronger communities
         </p>
-        <NuxtLink to="/" class="px-6 py-4 bg-blue-700 hover:bg-blue-600 text-white rounded-lg text-2xl font-bold">Learn more</NuxtLink>
+        <button class="px-6 py-4 bg-blue-700 hover:bg-blue-600 text-white rounded-lg text-2xl font-bold">Learn more</button>
       </div>
       <div class="relative flex-1">
         <div class="rounded-tr-40% rounded-bl-40% overflow-hidden">

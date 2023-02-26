@@ -311,6 +311,7 @@ module.exports = {
     fontFamily: {
       sans: [
         '"Space Grotesk"',
+        '"Oleo Script"',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',

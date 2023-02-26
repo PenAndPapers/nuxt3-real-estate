@@ -13,16 +13,12 @@
 </template>
 
 <script setup lang="ts">
+import { usePageSeo } from '@/composable/usePageSeo';
 import ContentContainer from '@/components/shared/ContentContainer.vue';
 import PropertySearch from '@/components/shared/property-search/index.vue'
 import PropertyCard from '@/components/shared/PropertyCard.vue'
 
-useHead({
-  title: 'Rent',
-  meta: [
-    { name: 'description', content: 'Rent page'  }
-  ]
-})
+usePageSeo('Rent', 'Rent page')
 
 const properties = reactive([
   {

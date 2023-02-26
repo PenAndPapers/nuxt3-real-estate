@@ -10,6 +10,7 @@
 </template>
 
 <script setup>
+import { usePageSeo } from '@/composable/usePageSeo'
 import HomeHero from '@/app/home/components/home-hero'
 import SearchProperty from '@/app/home/components/search-property'
 import HowItWorks from '@/app/home/components/how-it-works'
@@ -17,13 +18,7 @@ import WhyChooseUs from '@/app/home/components/why-choose-us'
 import FeatureProperties from '@/app/home/components/featured-properties'
 import Testimonials from '@/app/home/components/testimonials'
 
-useHead({
-  title: 'Dee\'s Estate: Home',
-  meta: [
-    { name: 'description', content: 'Home page'  }
-  ]
-})
-
+usePageSeo('Home','Home page')
 
 const { data, pending, error, refresh } = await useAsyncData(
   'mountains',
