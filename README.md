@@ -1,4 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Real Estate Project
+
+### This project is for educational purpose only
+
+Images - [Unsplash](https://unsplash.com/)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -41,6 +45,3 @@ npm run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-Images - [Unsplash](https://unsplash.com/)
-
-### This project is for educational purpose only
